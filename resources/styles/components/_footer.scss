@@ -1,0 +1,35 @@
+@import '../abstract/variables';
+
+footer {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5em;
+    text-align: center;
+    color: $secondary-gray;
+
+    .footer-menu {
+        margin-top: 2em;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            color: $main-white;
+            
+            li {
+                list-style: none;
+                margin: 0 0.5em;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        margin-bottom: 3em;
+
+        p {
+            margin-top: 2em;
+        }
+    }
+}

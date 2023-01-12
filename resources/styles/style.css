@@ -144,4 +144,33 @@ header .container {
 }
 #devices-section .devices .devs {
   padding: 0 2em;
+}
+
+footer {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 5em;
+  text-align: center;
+  color: #C0C0C0;
+}
+footer .footer-menu {
+  margin-top: 2em;
+}
+footer .footer-menu ul {
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+}
+footer .footer-menu ul li {
+  list-style: none;
+  margin: 0 0.5em;
+}
+footer .footer-menu ul li:hover {
+  cursor: pointer;
+}
+footer .copyright {
+  margin-bottom: 3em;
+}
+footer .copyright p {
+  margin-top: 2em;
 }/*# sourceMappingURL=style.css.map */
