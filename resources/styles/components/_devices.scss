@@ -1,0 +1,27 @@
+@import '../abstract/variables';
+
+#devices-section {
+    h2 {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 1em;
+    }
+
+    .devices {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        .device-text {
+            font-weight: 700;
+            font-size: 32px;
+            color: $main-white;
+        }
+
+        .devs {
+            padding: 0 2em;
+        }
+    }
+}
