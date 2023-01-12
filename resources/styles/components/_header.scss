@@ -22,13 +22,7 @@ header {
             }
     
             .container-button {
-                background-color: $button-blue;
-                border-radius: 5px;
-                padding: 1em;
-                color: $main-white;
-                display: block;
-                text-decoration: none;
-                margin-bottom: 1em;
+                @include container-button;
             }
     
             .secondary-button {
@@ -44,8 +38,6 @@ header {
     }
 
     .container {
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 50% 50%;
+        @include container;
     }
 }

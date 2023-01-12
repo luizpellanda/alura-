@@ -1,0 +1,35 @@
+@import '../abstract/variables';
+@import '../components/header';
+
+.secondary {
+    @include container;
+    align-items: center;
+    margin: 0 10em;
+
+    .container-description {
+
+        padding: 2em;
+
+        h2 {
+            font-weight: 700;
+            font-size: 48px;
+            color: $main-white;
+            margin-bottom: 0.1em;
+        }
+
+        p {
+            color: $secondary-gray;
+        }
+
+        .container-button {
+            @include container-button;
+            color: red($color: #000000);
+        }
+
+        .container-button-secondary {
+            display: inline-block;
+            margin-top: 1em;
+        }
+    }
+}
+
