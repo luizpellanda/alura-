@@ -23,11 +23,22 @@ header {
     
             .container-button {
                 @include container-button;
+                
+            }
+
+            .button-animation {
+                @include hover-button;
             }
     
             .secondary-button {
                 background-color: transparent;
                 border: 2px solid $main-white;
+                transition: color .4s ease-out,
+                            border .4s ease-out;
+                &:hover {
+                    color: $button-blue;
+                    border: 2px solid $button-blue;
+                }
             }
     
             .container-warning {

@@ -37,9 +37,21 @@ header #main-section .container-box .container-button {
   text-decoration: none;
   margin-bottom: 1em;
 }
+header #main-section .container-box .button-animation {
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+}
+header #main-section .container-box .button-animation:hover {
+  background-color: #FFF;
+  color: #167BF7;
+}
 header #main-section .container-box .secondary-button {
   background-color: transparent;
   border: 2px solid #FFF;
+  transition: color 0.4s ease-out, border 0.4s ease-out;
+}
+header #main-section .container-box .secondary-button:hover {
+  color: #167BF7;
+  border: 2px solid #167BF7;
 }
 header #main-section .container-box .container-warning {
   font-size: 12px;
@@ -77,9 +89,21 @@ header #main-section .container-box .container-button {
   text-decoration: none;
   margin-bottom: 1em;
 }
+header #main-section .container-box .button-animation {
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+}
+header #main-section .container-box .button-animation:hover {
+  background-color: #FFF;
+  color: #167BF7;
+}
 header #main-section .container-box .secondary-button {
   background-color: transparent;
   border: 2px solid #FFF;
+  transition: color 0.4s ease-out, border 0.4s ease-out;
+}
+header #main-section .container-box .secondary-button:hover {
+  color: #167BF7;
+  border: 2px solid #167BF7;
 }
 header #main-section .container-box .container-warning {
   font-size: 12px;
@@ -118,11 +142,15 @@ header .container {
   display: block;
   text-decoration: none;
   margin-bottom: 1em;
-  color: 0;
 }
 .secondary .container-description .container-button-secondary {
   display: inline-block;
   margin-top: 1em;
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+}
+.secondary .container-description .container-button-secondary:hover {
+  background-color: #FFF;
+  color: #167BF7;
 }
 
 #devices-section h2 {
@@ -164,9 +192,11 @@ footer .footer-menu ul {
 footer .footer-menu ul li {
   list-style: none;
   margin: 0 0.5em;
+  transition: color 0.3s ease-in-out;
 }
 footer .footer-menu ul li:hover {
   cursor: pointer;
+  color: #C0C0C0;
 }
 footer .copyright {
   margin-bottom: 3em;

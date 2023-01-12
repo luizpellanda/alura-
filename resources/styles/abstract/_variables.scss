@@ -28,3 +28,12 @@
         text-decoration: none;
         margin-bottom: 1em;
     }
+
+    @mixin hover-button {
+        transition: color .4s ease-out,
+                    background-color .4s ease-out;
+        &:hover {
+                    background-color: $main-white;
+                    color: $button-blue;
+                };
+    }
